@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (Basic, Basic,...ion, Exception)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1460063823213">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="Basic, Basic,...ion, Exception" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.jdt.ui.modelProvider">
+<mappings>
+<resources resourcePath="/IO" resourceType="4"/>
+<resources resourcePath="/Basic" resourceType="4"/>
+<resources resourcePath="/Just" resourceType="4"/>
+<resources resourcePath="/String" resourceType="4"/>
+<resources resourcePath="/volume_analytics" resourceType="4"/>
+<resources resourcePath="/Equals" resourceType="4"/>
+<resources resourcePath="/performance_tuning" resourceType="4"/>
+<resources resourcePath="/Doop" resourceType="4"/>
+<resources resourcePath="/rebeca" resourceType="4"/>
+<resources resourcePath="/udacity" resourceType="4"/>
+<resources resourcePath="/com.hadoop.koushik" resourceType="4"/>
+<resources resourcePath="/OOPS" resourceType="4"/>
+<resources resourcePath="/Collection" resourceType="4"/>
+<resources resourcePath="/storm" resourceType="4"/>
+<resources resourcePath="/FileCopy" resourceType="4"/>
+<resources resourcePath="/Date" resourceType="4"/>
+<resources resourcePath="/AdvanceHadoop" resourceType="4"/>
+<resources resourcePath="/Exception" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/IO" resourceType="4"/>
+<resources resourcePath="/Basic" resourceType="4"/>
+<resources resourcePath="/Just" resourceType="4"/>
+<resources resourcePath="/String" resourceType="4"/>
+<resources resourcePath="/volume_analytics" resourceType="4"/>
+<resources resourcePath="/Equals" resourceType="4"/>
+<resources resourcePath="/performance_tuning" resourceType="4"/>
+<resources resourcePath="/Doop" resourceType="4"/>
+<resources resourcePath="/rebeca" resourceType="4"/>
+<resources resourcePath="/udacity" resourceType="4"/>
+<resources resourcePath="/com.hadoop.koushik" resourceType="4"/>
+<resources resourcePath="/OOPS" resourceType="4"/>
+<resources resourcePath="/Collection" resourceType="4"/>
+<resources resourcePath="/storm" resourceType="4"/>
+<resources resourcePath="/FileCopy" resourceType="4"/>
+<resources resourcePath="/Date" resourceType="4"/>
+<resources resourcePath="/AdvanceHadoop" resourceType="4"/>
+<resources resourcePath="/Exception" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+</data>
+</participant>
+</syncparticipants>

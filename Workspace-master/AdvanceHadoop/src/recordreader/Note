@@ -1,0 +1,25 @@
+http://www.oodlestechnologies.com/blogs/Control-How-To-Read-Data-%3A-Map-Reduce-CustomInputFormat
+
+Input split is the data which is processed by mapper instance.
+Each Mapper instance will get the separate input split.
+This method is used to get the input split
+
+abstract List getSplits(JobContext context)
+
+Second, Provide a logic to read the input split
+ 
+
+Each mapper will get a unique input split and our input format provides the logic to read that input split using RecordReader. 
+
+
+What is Record Reader ??
+
+
+Record Reader will read the input split and emit the keys and values as input for each map function.
+A map function will be called again for each key and value pair.
+This method is used to create the record reader for given split.
+
+abstract RecordReader <K,V> createRecordReader(InputSplit is,
+TaskAttemptContext context)
+
+- See more at: http://www.oodlestechnologies.com/blogs/Control-How-To-Read-Data-%3A-Map-Reduce-CustomInputFormat#sthash.DkhRXOFk.dpuf

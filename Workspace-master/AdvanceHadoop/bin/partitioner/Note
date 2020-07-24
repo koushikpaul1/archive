@@ -1,0 +1,21 @@
+Hadoop decides it at the time when the map reduce job starts that how may partitions
+ will be there which is controlled by the JobConf.setNumReduceTasks()) method, 
+ suppose if decide 20 reduce tasks, the 20 partitions will be there and must be filled. -
+ 
+ By default the partitioner implementation is called HashPartitioner. It uses the hashCode() 
+ method of the key objects modulo the number of partitions total to determine which partition 
+ to send a given (key, value) pair to.
+
+Partitioner provides the getPartition() method that you can implement yourself if you want to 
+declare the custom partition for your job.
+The getPartition() method receives a key and a value and the number of partitions
+ to split the data, a number in the range [0, numPartitions) must be returned by 
+ this method, indicating which partition to send the key and value to. For any two 
+ keys k1 and k2, k1.equals(k2) implies getPartition(k1, *, n) == getPartition(k2, *, n).
+ 
+ 
+ public int getPartition(K key, V value,int numReduceTasks) {
+   return (key.hashCode() & Integer.MAX_VALUE) % numReduceTasks;
+ }
+
+source http://www.oodlestechnologies.com/blogs/Partitioning-in-Hadoop-Implement-A-Custom-Partitioner#sthash.q1qaPCG7.dpuf

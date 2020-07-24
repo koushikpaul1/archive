@@ -1,0 +1,8 @@
+List<String> records = new ArrayList<String>();		
+ BufferedReader reader = new BufferedReader(new FileReader("time.txt"));
+ String line;
+while ((line = reader.readLine()) != null)
+{
+ records.add(line);
+ }
+reader.close();
