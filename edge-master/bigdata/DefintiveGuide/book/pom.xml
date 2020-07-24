@@ -23,7 +23,7 @@
     <pig.version>0.16.0</pig.version>
     <spark.version>2.1.0</spark.version>
     <sqoop.version>1.4.6</sqoop.version>
-    <zookeeper.version>3.4.9</zookeeper.version>
+    <zookeeper.version>3.4.14</zookeeper.version>
   </properties>
   
   <dependencyManagement>
