@@ -17,7 +17,7 @@
     <crunch.version>0.14.0</crunch.version>
     <hadoop.version>2.7.3</hadoop.version>
     <hbase.version>1.2.4</hbase.version>
-    <hive.version>2.1.1</hive.version>
+    <hive.version>3.1.3000.7.2.0.2-2</hive.version>
     <mrunit.version>1.1.0</mrunit.version>
     <parquet.version>1.9.0</parquet.version>
     <pig.version>0.16.0</pig.version>
